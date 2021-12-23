@@ -140,3 +140,13 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+
+.about-me li:before,
+.about-me li:marker {
+      position: absolute;
+      font-family: 'FontAwesome';
+      content: "\f1db";
+      left: 0;
+      top: 0;
+      color: #009bd6;
+  }
